@@ -1,0 +1,44 @@
+
+.content-container{
+color:rgb(2, 2, 5);
+width: 450px;
+border-radius: 4px;
+background-color: rgb(243, 243, 243);
+display: flex;
+flex-direction: column;
+justify-content: center;
+box-shadow: 0 0 10px 0 rgba(0,0,0,0.2);
+}
+.image{
+    margin: auto;
+    border-radius: 8px;
+    position: relative;
+    top: 12px;
+    width: 90%;
+    
+
+}
+.text-container{
+    padding-left: 5%;
+}
+
+
+.icon-phone, .icon-email{
+    font-size: larger;
+    position: relative;
+    color:rgb(2, 2, 5);
+    top: 4px;
+}
+.h1-name{
+    font-size: 36px;
+    font-weight: 700;
+
+}
+.para-icon-phone{
+    font-size: 22px;
+}
+
+.para-icon-email{
+    font-size: 20px;
+
+}
