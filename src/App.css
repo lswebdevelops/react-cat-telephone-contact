@@ -1,6 +1,7 @@
 .App{
   display: flex;
   padding: 4px;
+  justify-content: center;
   flex-wrap: wrap;
   background-color: rgb(255, 255, 255);
   gap: 64px;
