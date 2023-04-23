@@ -6,7 +6,8 @@ class Contact extends React.Component{
         return(
             <div className='content-container'>
                 <img className='image'
-                 src={require(`../images/cat-${this.props.image}.png`)} />
+                 src={require(`../images/cat-${this.props.image}.png`)}
+                 alt={`a cat nammed: ${this.props.name}`} />
                 <div className='text-container'>
                     <h1 className='h1-name'>{this.props.name}</h1>
                     <p className='para-icon-phone'><span className='icon-phone'>{this.props.icon_phone}</span> {this.props.number}</p>
@@ -16,5 +17,4 @@ class Contact extends React.Component{
         )
     }
 }
-
 export default Contact;
